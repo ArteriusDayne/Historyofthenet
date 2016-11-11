@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>The History of The Internet</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+                <a href="index.html" class="logo">The History of the Internet</a>
+                <nav id="nav">
+                    <a href="index.html">Home</a>
+                    <a href="articles.html">Articles</a>
+                    <a href="timeline.html">Timeline</a>
+                    <a href="contact.html">Contact Us</a>
+                </nav>
+            </div>
+        </header>
+        <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+        <!-- Main -->
+        <section id="main" >
+            <div class="inner">
+                <header class="major special">
+                    <h1>Robots That Teach Each Other</h1>
+                    <p>What if robots could figure out more things on their own and share that knowledge among themselves?</p>
+                </header>
+                <a href="#" class="image fit"><img src="img/robots.jpg" alt="" /></a>
+                <p>Many of the jobs humans would like robots to perform, such as packing items in warehouses, assisting bedridden patients, or aiding soldiers on the front lines, aren’t yet possible because robots still don’t recognize and easily handle common objects. People generally have no trouble folding socks or picking up water glasses, because we’ve gone through “a big data collection process” called childhood, says Stefanie Tellex, a computer science professor at Brown University. For robots to do the same types of routine tasks, they also need access to reams of data on how to grasp and manipulate objects. Where does that data come from? Typically it has come from painstaking programming. But ideally, robots could get some information from each other.</p>
+                <p><span class="image right"><img src="img/robotpic.png" alt="" /></span>That’s the theory behind Tellex’s “Million Object Challenge.” The goal is for research robots around the world to learn how to spot and handle simple items from bowls to bananas, upload their data to the cloud, and allow other robots to analyze and use the information. </p>
+                <p>Tellex’s lab in Providence, Rhode Island, has the air of a playful preschool. On the day I visit, a Baxter robot, an industrial machine produced by Rethink Robotics, stands among oversized blocks, scanning a small hairbrush. It moves its right arm noisily back and forth above the object, taking multiple pictures with its camera and measuring depth with an infrared sensor. Then, with its two-pronged gripper, it tries different grasps that might allow it to lift the brush. Once it has the object in the air, it shakes it to make sure the grip is secure. If so, the robot has learned how to pick up one more thing.</p>
+                <p>The robot can work around the clock, frequently with a different object in each of its grippers. Tellex and her graduate student John Oberlin have gathered—and are now sharing—data on roughly 200 items, starting with such things as a child’s shoe, a plastic boat, a rubber duck, a garlic press and other cookware, and a sippy cup that originally belonged to her three-year-old son. Other scientists can contribute their robots’ own data, and Tellex hopes that together they will build up a library of information on how robots should handle a million different items. Eventually, robots confronting a crowded shelf will be able to “identify the pen in front of them and pick it up,” Tellex says.</p>
+                <p>Projects like this are possible because many research robots use the same standard framework for programming, known as ROS. Once one machine learns a given task, it can pass the data on to others—and those machines can upload feedback that will in turn refine the instructions given to subsequent machines. Tellex says the data about how to recognize and grasp any given object can be compressed to just five to 10 megabytes, about the size of a song in your music library.</p>
+                <p>Tellex was an early partner in a project called RoboBrain, which demonstrated how one robot could learn from another’s experience. Her collaborator Ashutosh Saxena, then at Cornell, taught his PR2 robot to lift small cups and position them on a table. Then, at Brown, Tellex downloaded that information from the cloud and used it to train her Baxter, which is physically different, to perform the same task in a different environment.</p>
+                <p>Such progress might seem incremental now, but in the next five to 10 years, we can expect to see “an explosion in the ability of robots,” says Saxena, now CEO of a startup called Brain of Things. As more researchers contribute to and refine cloud-based knowledge, he says, “robots should have access to all the information they need, at their fingertips.”</p>
+                
+                
+            </div>
+        </section>
+
+        <!-- Scripts -->
+        <script src="src/jquery.min.js"></script>
+        <script src="src/skel.min.js"></script>
+        <script src="src/util.js"></script>
+        <script src="src/main.js"></script>
+
+    </body>
+</html>
