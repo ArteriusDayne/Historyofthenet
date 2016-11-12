@@ -1,0 +1,437 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Shrikhand");
+@import url("https://fonts.googleapis.com/css?family=Cedarville+Cursive"); 
+
+/* Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+}
+
+/* Box Model */
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Basic Bot do this pls*/
+
+@-ms-viewport {
+    width: device-width;
+}
+
+body {
+    -ms-overflow-style: scrollbar;
+}
+
+
+body {
+    background: #fff;
+}
+
+/* Type */
+
+body {
+    background-color: #fff;
+    color: #111111;
+}
+
+body, input, select, textarea {
+    font-family: 'Shrikhand', cursive;
+    font-size: 15pt;
+    font-weight: 300;
+    line-height: 2;
+}
+
+
+@media screen and (max-width: 980px) {
+
+    body, input, select, textarea {
+        font-size: 12pt;
+    }
+
+}
+
+
+
+a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.36em;
+}
+
+
+a {
+    color: #e5474b;
+}
+
+h3 {
+    color: #1d4ef1;
+}
+
+/* Button i got it */
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .8em;
+    font-weight: 700;
+    height: 3.5em;
+    line-height: 3.65em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover,
+.button:hover {
+    text-decoration: none;
+}
+
+input[type="submit"].disabled, input[type="submit"]:disabled,
+input[type="reset"].disabled,
+input[type="reset"]:disabled,
+input[type="button"].disabled,
+input[type="button"]:disabled,
+button.disabled,
+button:disabled,
+.button.disabled,
+.button:disabled {
+    -moz-pointer-events: none;
+    -webkit-pointer-events: none;
+    -ms-pointer-events: none;
+    pointer-events: none;
+    opacity: 0.25;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+    background-color: #605f5f;
+    color: #ffffff !important;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover,
+.button:hover {
+    background-color: #777777;
+}
+
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+button:active,
+.button:active {
+    background-color: #515050;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+    background: none;
+    border-color: #f9e3e4;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+    color: #111111;
+}
+
+/* Image shail*/
+
+.image {
+    border-radius: 0;
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.image img {
+    border-radius: 0;
+    display: block;
+}
+
+.image.fit {
+    display: block;
+    margin: 0 0 2em 0;
+    width: 100%;
+}
+
+.image.fit img {
+    width: 100%;
+}
+
+/* List */
+
+ul {
+    list-style: disc;
+    margin: 0 0 2em 0;
+    padding-left: 1em;
+}
+
+ul li {
+    padding-left: 0.5em;
+}
+
+ul.actions {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.actions li {
+    display: inline-block;
+    padding: 0 1em 0 0;
+    vertical-align: middle;
+}
+
+ul.actions li:last-child {
+    padding-right: 0;
+}
+
+/* Section/Article */
+
+section .inner {
+    max-width: 60em;
+    width: calc(100% - 6em);
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+body {
+    position: relative;
+    padding-top: 5em;
+}
+
+#header {
+    background: #161616;
+    color: ##e0e0e0;
+    cursor: default;
+    height: 5em;
+    left: 0;
+    line-height: 5em;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+}
+
+#header .inner {
+    max-width: 65em;
+    width: calc(100% - 6em);
+    margin: 0 auto;
+    position: relative;
+}
+
+#header .logo {
+    font-family: 'Cedarville Cursive', cursive;
+    display: inline-block;
+    height: inherit;
+    left: 0;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    color: #1d4ef1;
+    font-size: 1.75em;
+    text-transform: none;
+    font-weight: normal;
+    padding: 0;
+}
+
+#header .logo:hover {
+    color: #671df1;
+}
+
+#header a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    display: inline-block;
+    padding: 0 2em;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .85em;
+}
+
+#header a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#header a:last-child {
+    padding-right: 0em;
+}
+
+/* Banner */
+
+#banner {
+    background-color: #e2484c;
+    color: #f7a5a7;
+    padding: 13em 0 11em 0;
+    background-color: #050505;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 15% left;
+    text-align: left;
+    position: relative;
+    z-index: 9999;
+}
+
+#banner a {
+    color: #ffffff;
+}
+
+#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+    color: #fff;
+}
+
+#banner:after {
+    -moz-transition: opacity 4s ease;
+    -webkit-transition: opacity 4s ease;
+    -ms-transition: opacity 4s ease;
+    transition: opacity 4s ease;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    background-color: #0c0c0c;
+    opacity: 0.25;
+}
+
+#banner .inner {
+    max-width: 64em;
+    width: calc(100% - 6em);
+    margin: 0 auto;
+    position: relative;
+    z-index: 10000;
+    line-height: 1.5;
+}
+
+
+#banner h1 {
+    font-size: 2em;
+    margin: 0 0 1em 0;
+    padding: 0;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+#banner h1 span {
+    font-weight: 400;
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+    #banner {
+        padding: 13em 0 11em 0;
+    }
+
+    #main {
+        padding: 5em 0 3em 0;
+        background: -moz-linear-gradient(top, #f2f2f2 0%, #f2f2f2 50%, #f9f9f9 0%, #f9f9f9 100%);
+        background: -webkit-linear-gradient(top, #f2f2f2 0%, #f2f2f2 50%, #f9f9f9 0%, #f9f9f9 100%);
+        background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 50%, #f9f9f9 0%, #f9f9f9 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#f9f9f9',GradientType=0 );
+    }
+
+    #main .inner {
+        -moz-flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    #main .inner article {
+        width: 100%;
+    }
+
+    #main .inner article:first-child {
+        padding-bottom: 4em;
+        padding-right: 00;
+       
+    }
+
+    #main .inner article:last-child {
+        padding-top: 4em;
+        padding-left: 00;
+       
+    }
+}
