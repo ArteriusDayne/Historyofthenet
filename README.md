@@ -17,3 +17,6 @@ Header and Banner: https://www.youtube.com/watch?v=X_skOPBsYZE
 Navpanel: https://www.youtube.com/watch?v=Uz0rJ4jaHJc
 
 http://www.w3schools.com/howto/howto_js_sidenav.asp
+
+Pointers
+http://tympanus.net/codrops/css_reference/pointer-events/
