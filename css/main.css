@@ -61,16 +61,17 @@ body {
 
 body, input, select, textarea {
     font-family: 'Shrikhand', cursive;
-    font-size: 15pt;
+    font-size: 20px;
     font-weight: 300;
-    line-height: 2;
+    line-height: 32px;
 }
 
 
 @media screen and (max-width: 980px) {
 
     body, input, select, textarea {
-        font-size: 12pt;
+        font-size: 16px;
+        line-height:26px;
     }
 
 }
@@ -91,7 +92,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
-    line-height: 1.5;
+    line-height: 36px;
     margin: 0 0 1em 0;
     text-transform: uppercase;
 }
